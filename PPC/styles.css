@@ -283,7 +283,7 @@
         /* Dropdown Menu */
         .dropdown-menu {
             display: none;
-            position: absolute;
+            position: fixed;
             top: 100px;
             left: 0;
             width: 50%;
@@ -791,9 +791,9 @@ p {
 .logo-container {
     position: relative;
     width: 100%;
-    height: 150px;
+    height: 160px;
     overflow: hidden;
-    background: linear-gradient(to right, #ffe4b5, #ffdab9); /* Light orange gradient */
+    background: white /* Light orange gradient */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -801,8 +801,8 @@ p {
 
 .logos {
     display: flex;
-    gap: 50px;
-    animation: slideLogos 30s linear infinite;
+    gap: 80px;
+    animation: slideLogos 15s linear infinite;
 }
 
 .logos img {
